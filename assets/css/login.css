@@ -1,0 +1,40 @@
+
+
+body {
+    background-image: url(../img/login/login-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.form-wrapper {
+    background-color: rgb(191 43 226 / 70%);
+    border-radius: 20px;
+    padding: 30px;
+    width: 100%;
+}
+
+.form-wrapper  form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.form-wrapper  form input {
+    width: 100%;
+    padding: 10px 25px;
+    background-color: rgba(0, 0, 0, 0.164);
+    border: 1px solid rgba(255, 255, 255, 0.493);
+    color: white;
+}
+
+.form-wrapper  form input::placeholder {
+    color: white;
+}
+
+.login-form-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
